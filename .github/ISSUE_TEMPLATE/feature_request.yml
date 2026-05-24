@@ -1,0 +1,68 @@
+name: Feature Request
+description: Suggest a public-facing improvement for Agentic AI Library.
+title: "[Feature]: "
+labels: ["feature-request", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this form for public-facing feature ideas. Please avoid internal implementation assumptions.
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem would this solve?
+      description: Explain the user need or friction.
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed solution
+      description: Describe the feature or improvement.
+    validations:
+      required: true
+
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Navigation
+        - Search
+        - Filters
+        - Visualizations
+        - Resource discovery
+        - Glossary
+        - Resource submission
+        - Accessibility
+        - Mobile experience
+        - Performance
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: Optional. Mention simpler or alternative approaches.
+    validations:
+      required: false
+
+  - type: textarea
+    id: value
+    attributes:
+      label: Why this would be valuable
+      description: Who benefits and how?
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: scope
+    attributes:
+      label: Scope check
+      options:
+        - label: This request is about the public website experience, not private source code or internal implementation.
+          required: true

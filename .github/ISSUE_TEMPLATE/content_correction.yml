@@ -1,0 +1,50 @@
+name: Content Correction
+description: Report inaccurate, outdated, duplicated, or broken public content.
+title: "[Correction]: "
+labels: ["content-correction", "needs-review"]
+body:
+  - type: input
+    id: page-section
+    attributes:
+      label: Page, section, or resource
+      placeholder: "Example: /library, Glossary, specific resource card"
+    validations:
+      required: true
+
+  - type: textarea
+    id: current-content
+    attributes:
+      label: Current content
+      description: What currently appears to be wrong, outdated, duplicated, or broken?
+    validations:
+      required: true
+
+  - type: textarea
+    id: suggested-correction
+    attributes:
+      label: Suggested correction
+    validations:
+      required: true
+
+  - type: input
+    id: source
+    attributes:
+      label: Supporting source
+      description: Add a reliable source if available.
+    validations:
+      required: false
+
+  - type: dropdown
+    id: correction-type
+    attributes:
+      label: Correction type
+      options:
+        - Broken link
+        - Outdated content
+        - Duplicate resource
+        - Wrong category
+        - Typo or wording
+        - Incorrect description
+        - Other
+    validations:
+      required: true

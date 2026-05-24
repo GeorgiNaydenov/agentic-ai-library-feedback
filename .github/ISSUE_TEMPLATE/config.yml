@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Security concern
+    url: https://agenticlibrary.net/privacy
+    about: Do not open public issues for security concerns. Follow the security reporting guidance instead.
+  - name: Visit Agentic AI Library
+    url: https://agenticlibrary.net
+    about: Open the public website.

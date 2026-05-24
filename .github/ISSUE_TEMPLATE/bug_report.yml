@@ -1,0 +1,93 @@
+name: Bug Report
+description: Report a problem with the public Agentic AI Library website.
+title: "[Bug]: "
+labels: ["bug", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting a bug. Please do not include passwords, tokens, private links, or personal data.
+
+  - type: input
+    id: page-url
+    attributes:
+      label: Page or section
+      description: Where did you notice the issue?
+      placeholder: "Example: /library, /glossary, homepage, filters, search"
+    validations:
+      required: true
+
+  - type: textarea
+    id: current-behavior
+    attributes:
+      label: What happened?
+      description: Describe the issue clearly.
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected-behavior
+    attributes:
+      label: What did you expect to happen?
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Go to...
+        2. Click...
+        3. See...
+    validations:
+      required: false
+
+  - type: dropdown
+    id: area
+    attributes:
+      label: Affected area
+      options:
+        - Homepage
+        - Library
+        - Glossary
+        - Search
+        - Filters
+        - Resource cards
+        - Navigation
+        - Mobile layout
+        - Visual design
+        - Performance
+        - Other
+    validations:
+      required: true
+
+  - type: dropdown
+    id: browser
+    attributes:
+      label: Browser
+      options:
+        - Chrome
+        - Safari
+        - Firefox
+        - Edge
+        - Mobile browser
+        - Other
+    validations:
+      required: false
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots or screen recording
+      description: Add screenshots if they help explain the issue.
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: disclosure
+    attributes:
+      label: Disclosure check
+      options:
+        - label: I have not included passwords, tokens, private URLs, personal data, or security exploit details.
+          required: true

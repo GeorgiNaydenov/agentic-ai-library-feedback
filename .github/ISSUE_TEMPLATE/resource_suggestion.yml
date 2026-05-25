@@ -24,7 +24,7 @@ body:
     attributes:
       label: Author, organization, or publisher
     validations:
-      required: false
+      required: true
 
   - type: dropdown
     id: resource-type
@@ -61,11 +61,27 @@ body:
     validations:
       required: true
 
+  - type: dropdown
+    id: access-type
+    attributes:
+      label: Access type
+      options:
+        - Free
+        - Paid
+        - Open source
+        - Academic (freely accessible)
+        - Requires registration
+        - Unknown
+    validations:
+      required: false
+
   - type: checkboxes
     id: quality-check
     attributes:
-      label: Quality check
+      label: Before submitting
       options:
+        - label: I checked that this resource is not already in the library at agenticlibrary.net.
+          required: true
         - label: I have provided the official or most reliable URL I could find.
           required: true
         - label: I understand that not all suggestions will be added.

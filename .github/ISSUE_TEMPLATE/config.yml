@@ -1,8 +1,8 @@
 blank_issues_enabled: false
 contact_links:
-  - name: Security concern
-    url: https://agenticlibrary.net/privacy
-    about: Do not open public issues for security concerns. Follow the security reporting guidance instead.
+  - name: Report a security concern privately
+    url: https://github.com/GeorgiNaydenov/agentic-ai-library-feedback/security/advisories/new
+    about: Use GitHub's private security advisory feature. Do not open a public issue for security vulnerabilities.
   - name: Visit Agentic AI Library
     url: https://agenticlibrary.net
     about: Open the public website.

@@ -60,9 +60,11 @@ body:
       required: true
 
   - type: checkboxes
-    id: scope
+    id: checklist
     attributes:
-      label: Scope check
+      label: Before submitting
       options:
+        - label: I searched existing issues and this is not a duplicate.
+          required: true
         - label: This request is about the public website experience, not private source code or internal implementation.
           required: true

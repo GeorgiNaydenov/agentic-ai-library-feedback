@@ -2,65 +2,100 @@
 
 Thanks for helping improve Agentic AI Library.
 
-This repository accepts public feedback through GitHub Issues.
+This repository accepts public feedback through GitHub Issues. Each issue type has a guided form to help you include the right information.
+
+---
 
 ## Contribution types
 
-You can contribute by:
+| Type | When to use |
+|---|---|
+| Bug Report | Something on the public website is broken, missing, or behaving incorrectly |
+| Feature Request | A public-facing improvement you would like to see |
+| Resource Suggestion | A resource, paper, tool, framework, guide, or glossary term worth adding |
+| Content Correction | A resource, definition, link, or description that is wrong, outdated, or broken |
 
-1. Reporting a website bug
-2. Suggesting a new feature
-3. Suggesting a new resource
-4. Reporting broken links
-5. Correcting inaccurate or outdated content
-6. Suggesting better wording, categorization, or navigation
+---
 
-## What makes a good issue
+## Bug reports
 
-A good issue is specific, clear, and actionable.
+A good bug report includes:
 
-Please include:
-
-- What page or section the issue relates to
+- The page or section affected
+- What happened
 - What you expected to happen
-- What actually happened
-- Screenshots, if useful
-- Browser and device details, if it is a website bug
-- Source links, if suggesting or correcting a resource
+- Steps to reproduce, if you can
+- Browser and device type
+- A screenshot, if it helps
+
+See [docs/bug-report-guidelines.md](docs/bug-report-guidelines.md) for more detail.
+
+---
+
+## Feature requests
+
+A good feature request includes:
+
+- The problem or friction the user experiences
+- The proposed improvement
+- The area of the website it affects
+- Why the improvement would be valuable
+- Alternatives considered, if any
+
+Requests should focus on the public user experience. Requests for internal implementation details, source code access, or deployment changes will be closed.
+
+See [docs/feature-request-guidelines.md](docs/feature-request-guidelines.md) for more detail.
+
+---
 
 ## Resource suggestions
 
-For new resources, please include:
+For a new resource, please include:
 
 - Resource title
 - Official URL
 - Author, organization, or publisher
+- Resource type
 - Suggested category or domain
-- Short reason why it belongs in the library
-- Whether it is free, paid, open-source, academic, vendor-owned, or community-maintained
+- Why it belongs in the library
+
+Prefer official sources over mirrors, aggregators, or unofficial reposts.
+
+See [docs/resource-suggestion-guidelines.md](docs/resource-suggestion-guidelines.md) for more detail.
+
+---
 
 ## Content corrections
 
-For corrections, please include:
+For a correction, please include:
 
-- Current wording or entry
-- Suggested correction
-- Source or evidence
-- Why the correction matters
+- The page, section, or entry that needs correcting
+- What currently appears
+- What it should say or link to instead
+- A reliable source, if available
 
-## What not to include
+See [docs/content-correction-guidelines.md](docs/content-correction-guidelines.md) for more detail.
 
-Do not include:
+---
 
-- Secrets, tokens, passwords, or credentials
-- Private business information
+## What not to include in any issue
+
+- Passwords, tokens, API keys, or credentials
+- Private URLs or internal links
 - Personal data about other people
-- Internal implementation assumptions
-- Security exploit steps in public issues
-- Large copied text from copyrighted sources
+- Security exploit steps or vulnerability details
+- Private business information or internal assumptions
 
-## Review process
+---
 
-Issues are reviewed manually. Valid issues may be labeled, clarified, accepted, deferred, closed as duplicate, or closed as not planned.
+## What happens next
 
-Opening an issue does not guarantee implementation.
+Issues are reviewed manually. A valid issue may be:
+
+- Labeled and accepted
+- Clarified with follow-up questions
+- Deferred
+- Closed as a duplicate
+- Closed as not planned
+
+Opening an issue does not guarantee a response or implementation. Not all suggestions fit the library's scope or current priorities.
